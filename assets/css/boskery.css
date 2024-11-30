@@ -786,7 +786,7 @@ h6 {
   justify-content: center;
   width: 56px;
   height: 56px;
-  background-color: var(--boskery-black2, #100F0F);
+  background-color: var(--boskery-base, #100F0F);
   border-radius: 50%;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -800,7 +800,7 @@ h6 {
   color: var(--boskery-white, #ffffff);
 }
 .video-button:hover {
-  background-color: var(--boskery-base, #db9b06);
+  background-color: var(--boskery-black2p, #db9b06);
 }
 .video-button:hover span {
   color: var(--boskery-white, #ffffff);
@@ -8741,6 +8741,7 @@ li:hover .sidebar__comments__icon::after {
 .product-details__content {
   position: relative;
   margin-top: 16px;
+  font-family: var(--boskery-font);
 }
 @media (max-width: 1199px) {
   .product-details__content {
@@ -9012,6 +9013,7 @@ li:hover .sidebar__comments__icon::after {
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 21px;
+  font-family: var(--boskery-heading-font, "Roboto Condensed", sans-serif);
 }
 .product-details__description__text {
   font-size: 16px;
@@ -10238,6 +10240,7 @@ li:hover .sidebar__comments__icon::after {
   text-transform: uppercase;
   transition: all 500ms ease;
   margin-bottom: 0;
+  font-family: var(--boskery-heading-font, "Roboto Condensed", sans-serif);
 }
 .faq-accordion .accordion-title__icon {
   display: inline-block;
@@ -14187,6 +14190,7 @@ li:hover .sidebar__comments__icon::after {
   letter-spacing: -0.4px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  font-family: var(--boskery-heading-font);
 }
 .service-details__text {
   letter-spacing: -0.3px;
@@ -14625,3 +14629,21 @@ body.boxed-wrapper .testimonials-one__shape__one {
 .text-base{
   --boskery-base: #db9b06;
 }
+
+* {box-sizing: border-box;}
+
+  .img-magnifier-container {
+    position: relative;
+  }
+
+  .img-magnifier-glass {
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /* Set the size of the magnifier glass: */
+    width: 300px;
+    height: 300px;
+    display: none; /* Başlangıçta gizli */
+  }
+  
