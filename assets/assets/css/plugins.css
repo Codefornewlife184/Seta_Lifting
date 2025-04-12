@@ -82,10 +82,10 @@
 .slick-vertical .slick-slide{ display:block; height:auto; border: 1px solid transparent; }
 .slick-arrow.slick-hidden { display:none; }
 /* Slick Nav */
-.slick-prev, .slick-next { position:absolute; top:50%; -ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); height:40px; width:40px; font-size:0; overflow:hidden; background-color:#f0f0f0; color:#000; border-radius:50%; border:none; outline:none; transition:all 300ms ease-in 0s; z-index:99; }
+.slick-prev, .slick-next { position:absolute; top:0%; height:0px; width:0px; font-size:0; overflow:hidden; background-color:#fff; color:#fff; border-radius:50%; border:none; outline:none; transition:all 300ms ease-in 0s; }
 .slick-prev:hover, .slick-next:hover{ background-color:#333; color:#fff; }
-.slick-prev { left:-45px; }
-.slick-next { right:-45px; }
+.slick-prev { left:-90px; }
+.slick-next { right:-90px; }
 .slick-prev:before, .slick-next:before { content:"\e64a"; font-family:'themify'; color:#909090; font-size:16px; vertical-align:middle; }
 .slick-prev:hover:before, .slick-next:hover:before { color:#fff; }
 .slick-next:before { content:"\e649"; }

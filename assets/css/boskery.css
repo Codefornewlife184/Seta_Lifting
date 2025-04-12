@@ -784,8 +784,8 @@ h6 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
+  width: 46px;
+  height: 46px;
   background-color: var(--boskery-base, #100F0F);
   border-radius: 50%;
   transition: all 0.5s ease;
@@ -8741,7 +8741,7 @@ li:hover .sidebar__comments__icon::after {
 .product-details__content {
   position: relative;
   margin-top: 16px;
-  font-family: var(--boskery-font);
+  font-family: "Roboto Condensed", sans-serif;
 }
 @media (max-width: 1199px) {
   .product-details__content {
@@ -8810,7 +8810,7 @@ li:hover .sidebar__comments__icon::after {
 .product-details__excerpt {
   margin-top: 32.5px;
   padding-bottom: 23px;
-  border-bottom: 1px solid var(--boskery-border-color, #EBE3D9);
+  /* border-bottom: 1px solid var(--boskery-border-color, #EBE3D9); */
 }
 .product-details__excerpt__text {
   font-size: 16px;
